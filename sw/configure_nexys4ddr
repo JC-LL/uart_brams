@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+puts "=> programming Digilent Nexys4DDR..."
+cmd="djtgcfg prog -d Nexys4DDR -i 0 -f ../syn/SYNTH_OUTPUTS/top.bit"
+system(cmd)
